@@ -6,7 +6,7 @@ using System.Runtime.InteropServices;
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
 [assembly: AssemblyTitle("Elision.Search")]
-[assembly: AssemblyDescription("")]
+[assembly: AssemblyDescription("Contains functionality to simplify website search repositories using the Sitecore Elision framework")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
 [assembly: AssemblyProduct("Elision.Search")]

@@ -245,11 +245,12 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="App_Config\Include\Elision\Elision.Search.config">
+    <Content Include="App_Config\Include\Elision.Feature.Library.Search\Elision.Feature.Library.Search.config">
       <SubType>Designer</SubType>
     </Content>
     <Content Include="packages.config" />
     <Content Include="Elision.Feature.Library.Search.nuspec" />
+    <Content Include="Elision.Feature.Library.Search.beta.nuspec" />
     <None Include="Web.config" />
   </ItemGroup>
   <ItemGroup>

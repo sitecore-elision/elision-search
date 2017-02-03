@@ -1,5 +1,4 @@
 using Sitecore.Data;
-
 #pragma warning disable 1591
 #pragma warning disable 0108
 // ReSharper disable InconsistentNaming

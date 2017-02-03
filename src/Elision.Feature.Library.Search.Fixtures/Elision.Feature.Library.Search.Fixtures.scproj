@@ -26,7 +26,7 @@
     <NuGetPackageImportStamp>
     </NuGetPackageImportStamp>
     <FieldsForCodeGen>Title,Blob,Shared,Unversioned,Default value,Validation,ValidationText,__Long description,__Short description,__Display name,__Hidden,__Read Only,__Sortorder</FieldsForCodeGen>
-    <CodeGenTargetProject>Elision.Search</CodeGenTargetProject>
+    <CodeGenTargetProject>Elision.Feature.Library.Search</CodeGenTargetProject>
     <CodeGenFile>Fixtures.cs</CodeGenFile>
     <BaseTransformFile>StructItem.tt</BaseTransformFile>
     <HeaderTransformFile>StructHeader.tt</HeaderTransformFile>
@@ -53,31 +53,32 @@
     <DebugSymbols>false</DebugSymbols>
     <OutputPath>.\bin\Release\</OutputPath>
     <RecursiveDeployAction>Ignore</RecursiveDeployAction>
-    <PackageName>Elision.Search</PackageName>
+    <PackageName>Elision.Feature.Search.Fixtures</PackageName>
     <GeneratePackage>True</GeneratePackage>
     <SeperateFilesAndItems>False</SeperateFilesAndItems>
     <PackageExcludeCode>False</PackageExcludeCode>
     <AddDateTimeToPackageName>False</AddDateTimeToPackageName>
-    <PackageAuthor>Patrick Delancy</PackageAuthor>
-    <PackagePublisher>Patrick Delancy</PackagePublisher>
+    <PackageAuthor>Jeffrey Rondeau</PackageAuthor>
+    <PackagePublisher>Jeffrey Rondeau</PackagePublisher>
     <PackageReadme>
     </PackageReadme>
-    <PackageVersion>1.0.0.0</PackageVersion>
-    <SitecoreAssemblyPath>..\packages\Sitecore81Deploy.8.1.0\lib\net45</SitecoreAssemblyPath>
+    <PackageVersion>0.0.1</PackageVersion>
+    <SitecoreAssemblyPath>
+    </SitecoreAssemblyPath>
     <NuGetGenerateNuGetPackage>True</NuGetGenerateNuGetPackage>
     <NuGetExePath>..\.nuget</NuGetExePath>
     <NuGetSummary />
-    <NuGetDescription>TDS Item Fixtures for Sitecore Development Accelerator Framework</NuGetDescription>
-    <NuGetTitle>Elision Search TDS Fixtures</NuGetTitle>
-    <NuGetVersion>1.0.0.0</NuGetVersion>
-    <NuGetPackageId>Sitecore.Elision.Search.Fixtures</NuGetPackageId>
-    <NuGetAuthors>PatrickDelancy</NuGetAuthors>
-    <NuGetOwners>PatrickDelancy</NuGetOwners>
+    <NuGetDescription>TDS Feature Layer Item Fixtures for use with Elision Search.  Compatible with Sitecore 8.2 Update 2.</NuGetDescription>
+    <NuGetTitle>Elision.Feature.Search TDS Fixtures</NuGetTitle>
+    <NuGetVersion>0.0.1</NuGetVersion>
+    <NuGetPackageId>Sitecore.Elision.Feature.Search.Fixtures</NuGetPackageId>
+    <NuGetAuthors>jrondeau</NuGetAuthors>
+    <NuGetOwners>jrondeau</NuGetOwners>
     <NuGetCopyright />
     <NuGetLicenseUrl />
     <NuGetIconUrl />
     <NuGetProjectUrl>https://github.com/sitecore-elision/elision-search</NuGetProjectUrl>
-    <NuGetTags>sitecore elision</NuGetTags>
+    <NuGetTags>sitecore elision feature search tds fixtures</NuGetTags>
     <NuGetReleaseNotes />
     <NuGetLanguage />
     <NuGetRequireLicenseAcceptance>False</NuGetRequireLicenseAcceptance>

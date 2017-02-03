@@ -1,14 +1,14 @@
 <?xml version="1.0"?>
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
   <metadata>
-    <id>Elision.Feature.Search</id>
-    <version>0.0.1</version>
-    <title>Elision Search Feature for Sitecore</title>
+    <id>Elision.Feature.Search-redist</id>
+    <version>$version$</version>
+    <title>Elision Search Feature for Sitecore Redist</title>
     <authors>jrondeau,PatrickDelancy</authors>
     <owners>jrondeau</owners>
     <projectUrl>https://github.com/sitecore-elision/elision-search</projectUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-    <description>This is the Elision search feature package to reference if you need to install the entire feature. If you are building a module or other code that just needs to reference Elision search feature, use the Elision.Feature.Search-redist package instead.</description>
+    <description>This is the Elision search feature package to reference if you are building a module or other code that just needs to reference Elision search feature. If you need to install Elision's search feature, use the Elision.Feature.Search package instead.</description>
     <releaseNotes></releaseNotes>
     <copyright>Copyright 2016</copyright>
     <tags>sitecore elision feature search</tags>

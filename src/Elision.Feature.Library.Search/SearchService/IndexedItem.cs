@@ -5,7 +5,7 @@ using Sitecore.ContentSearch.Converters;
 using Sitecore.ContentSearch.SearchTypes;
 using Sitecore.Data;
 
-namespace Elision.Search
+namespace Elision.Feature.Library.Search
 {
     public class IndexedItem : SearchResultItem
     {

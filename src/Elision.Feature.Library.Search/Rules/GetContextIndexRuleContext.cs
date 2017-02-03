@@ -2,7 +2,7 @@ using Elision.Foundation.Rules;
 using Sitecore.ContentSearch;
 using Sitecore.ContentSearch.Pipelines.GetContextIndex;
 
-namespace Elision.Search.Rules
+namespace Elision.Feature.Library.Search.Rules
 {
     public class GetContextIndexRuleContext : EnhancedRuleContext
     {

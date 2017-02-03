@@ -1,11 +1,11 @@
+using Elision.Feature.Library.Search.Rules;
 using Elision.Foundation.Kernel.Diagnostics;
 using Elision.Foundation.Rules;
-using Elision.Search.Rules;
 using Sitecore.ContentSearch;
 using Sitecore.ContentSearch.Pipelines.GetContextIndex;
 using Sitecore.Data.Items;
 
-namespace Elision.Search.Pipelines.GetContextIndex
+namespace Elision.Feature.Library.Search.Pipelines.GetContextIndex
 {
     public class RunGetContextIndexRules : GetContextIndexProcessor
     {

@@ -1,4 +1,4 @@
-﻿namespace Elision.Search
+﻿namespace Elision.Feature.Library.Search
 {
     public interface ISiteSearcher
     {

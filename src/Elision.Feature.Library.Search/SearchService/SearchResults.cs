@@ -2,7 +2,7 @@ using System.Collections.Generic;
 using Sitecore.ContentSearch;
 using Sitecore.ContentSearch.Linq;
 
-namespace Elision.Search
+namespace Elision.Feature.Library.Search
 {
     public class SearchResults<T> where T : ISearchResult
     {

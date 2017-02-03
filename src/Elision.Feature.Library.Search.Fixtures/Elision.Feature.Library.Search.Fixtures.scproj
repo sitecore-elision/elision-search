@@ -7,9 +7,9 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>7a0326cc-553a-488e-b53a-33ba4d655f05</ProjectGuid>
     <TargetFrameworkVersion>v2.0</TargetFrameworkVersion>
-    <SourceWebPhysicalPath>..\Elision.Search</SourceWebPhysicalPath>
-    <SourceWebProject>{0d0d00d0-6f94-4e45-b320-0b7d3b6ebd80}|Elision.Search\Elision.Search.csproj</SourceWebProject>
-    <SourceWebVirtualPath>/Elision.Search.csproj</SourceWebVirtualPath>
+    <SourceWebPhysicalPath>..\Elision.Feature.Library.Search</SourceWebPhysicalPath>
+    <SourceWebProject>{0d0d00d0-6f94-4e45-b320-0b7d3b6ebd80}|Elision.Feature.Library.Search\Elision.Feature.Library.Search.csproj</SourceWebProject>
+    <SourceWebVirtualPath>/Elision.Feature.Library.Search.csproj</SourceWebVirtualPath>
     <TargetFrameworkVersion>v2.0</TargetFrameworkVersion>
     <EnableUpdateable>true</EnableUpdateable>
     <UseMerge>true</UseMerge>
@@ -17,7 +17,7 @@
     <UseWebConfigReplacement>false</UseWebConfigReplacement>
     <DeleteAppCodeCompiledFiles>true</DeleteAppCodeCompiledFiles>
     <LegacyFileReplacement>false</LegacyFileReplacement>
-    <Name>Elision.Search.Fixtures</Name>
+    <Name>Elision.Feature.Library.Search.Fixtures</Name>
     <RootNamespace>Elision.Search.Fixtures</RootNamespace>
     <EnableCodeGeneration>True</EnableCodeGeneration>
     <ManageRoles>False</ManageRoles>
@@ -94,9 +94,9 @@
     </AssemblyAttributes>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Elision.Search\Elision.Search.csproj">
+    <ProjectReference Include="..\Elision.Feature.Library.Search\Elision.Feature.Library.Search.csproj">
       <Project>{0d0d00d0-6f94-4e45-b320-0b7d3b6ebd80}</Project>
-      <Name>Elision.Search</Name>
+      <Name>Elision.Feature.Library.Search</Name>
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
@@ -194,14 +194,14 @@
     </SitecoreItem>
   </ItemGroup>
   <ItemGroup>
-    <ExcludedAssemblies Include="Elision.Search.dll" />
-  </ItemGroup>
-  <ItemGroup>
     <CodeGenTemplate Include="Code Generation Templates\StructHeader.tt" />
     <CodeGenTemplate Include="Code Generation Templates\StructItem.tt" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ExcludedAssemblies Include="Elision.Search.dll" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\HedgehogDevelopment\SitecoreProject\v9.0\HedgehogDevelopment.SitecoreProject.targets" Condition="Exists('$(MSBuildExtensionsPath)\HedgehogDevelopment\SitecoreProject\v9.0\HedgehogDevelopment.SitecoreProject.targets')" />
   <Import Project="..\packages\HedgehogDevelopment.TDS.5.5.0.20\build\HedgehogDevelopment.TDS.targets" Condition="Exists('..\packages\HedgehogDevelopment.TDS.5.5.0.20\build\HedgehogDevelopment.TDS.targets')" />

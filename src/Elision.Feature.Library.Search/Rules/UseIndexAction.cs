@@ -1,6 +1,6 @@
 using Sitecore.Rules.Actions;
 
-namespace Elision.Search.Rules
+namespace Elision.Feature.Library.Search.Rules
 {
     public class UseIndexAction<T> : RuleAction<T> where T : GetContextIndexRuleContext
     {

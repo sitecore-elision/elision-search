@@ -4,7 +4,7 @@ using Sitecore;
 using Sitecore.Data;
 using Sitecore.Data.Items;
 
-namespace Elision.Search
+namespace Elision.Feature.Library.Search
 {
     public class SearchOptions
     {

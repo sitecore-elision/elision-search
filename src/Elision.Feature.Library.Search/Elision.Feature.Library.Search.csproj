@@ -11,8 +11,8 @@
     <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Elision.Search</RootNamespace>
-    <AssemblyName>Elision.Search</AssemblyName>
+    <RootNamespace>Elision.Feature.Library.Search</RootNamespace>
+    <AssemblyName>Elision.Feature.Library.Search</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <UseIISExpress>true</UseIISExpress>
     <IISExpressSSLPort />
@@ -249,7 +249,7 @@
       <SubType>Designer</SubType>
     </Content>
     <Content Include="packages.config" />
-    <Content Include="Elision.Search.nuspec" />
+    <Content Include="Elision.Feature.Library.Search.nuspec" />
     <None Include="Web.config" />
   </ItemGroup>
   <ItemGroup>

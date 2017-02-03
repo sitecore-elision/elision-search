@@ -3,11 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Elision.Search", "Elision.Search\Elision.Search.csproj", "{0D0D00D0-6F94-4E45-B320-0B7D3B6EBD80}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Elision.Feature.Library.Search", "Elision.Feature.Library.Search\Elision.Feature.Library.Search.csproj", "{0D0D00D0-6F94-4E45-B320-0B7D3B6EBD80}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Elision.Search.Tests", "Elision.Search.Tests\Elision.Search.Tests.csproj", "{A1F83374-0740-4F40-A629-C228D09B8108}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Elision.Feature.Library.Search.Tests", "Elision.Feature.Library.Search.Tests\Elision.Feature.Library.Search.Tests.csproj", "{A1F83374-0740-4F40-A629-C228D09B8108}"
 EndProject
-Project("{CAA73BB0-EF22-4D79-A57E-DF67B3BA9C80}") = "Elision.Search.Fixtures", "Elision.Search.Fixtures\Elision.Search.Fixtures.scproj", "{7A0326CC-553A-488E-B53A-33BA4D655F05}"
+Project("{CAA73BB0-EF22-4D79-A57E-DF67B3BA9C80}") = "Elision.Feature.Library.Search.Fixtures", "Elision.Feature.Library.Search.Fixtures\Elision.Feature.Library.Search.Fixtures.scproj", "{7A0326CC-553A-488E-B53A-33BA4D655F05}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Deployment", "Deployment", "{2909CD40-EB1A-40A1-886E-0EECDE16408E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -29,5 +31,8 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{7A0326CC-553A-488E-B53A-33BA4D655F05} = {2909CD40-EB1A-40A1-886E-0EECDE16408E}
 	EndGlobalSection
 EndGlobal

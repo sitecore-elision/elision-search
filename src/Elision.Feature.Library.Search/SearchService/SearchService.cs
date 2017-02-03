@@ -5,9 +5,8 @@ using Elision.Foundation.Kernel;
 using Sitecore.ContentSearch;
 using Sitecore.ContentSearch.Linq;
 using Sitecore.ContentSearch.Linq.Utilities;
-using Sitecore.ContentSearch.Utilities;
 
-namespace Elision.Search
+namespace Elision.Feature.Library.Search
 {
     public abstract class SearchService<TResult, TOptions>
         where TResult : IndexedItem
@@ -18,7 +17,7 @@ namespace Elision.Search
             return ContentSearchManager.GetIndex(new SitecoreIndexableItem(options.ContextPage));
         }
 
-        public virtual SearchResults<TResult> Search(TOptions options)
+        public virtual Feature.Library.Search.SearchResults<TResult> Search(TOptions options)
         {
             var index = GetIndex(options);
             using (var searchContext = index.CreateSearchContext())
@@ -28,12 +27,12 @@ namespace Elision.Search
             }
         }
 
-        protected virtual SearchResults<TResult> BuildResults(IQueryable<TResult> queryable, TOptions options)
+        protected virtual Feature.Library.Search.SearchResults<TResult> BuildResults(IQueryable<TResult> queryable, TOptions options)
         {
             var results = ApplyPaging(queryable, options).GetResults();
             var totalResults = results.TotalSearchResults;
 
-            return new SearchResults<TResult>
+            return new Feature.Library.Search.SearchResults<TResult>
             {
                 Documents = GetReturnDocuments(options, results),
                 FacetCategories = results.Facets == null ? new List<FacetCategory>() : results.Facets.Categories,

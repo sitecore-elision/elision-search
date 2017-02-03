@@ -1,4 +1,5 @@
 using Sitecore.Data;
+
 #pragma warning disable 1591
 #pragma warning disable 0108
 // ReSharper disable InconsistentNaming
@@ -11,7 +12,7 @@ using Sitecore.Data;
 //     the code is regenerated.
 // </auto-generated>
 //------------------------------------------------------------------------------
-namespace Elision.Search
+namespace Elision.Feature.Library.Search
 {
 	public partial struct Templates
     {

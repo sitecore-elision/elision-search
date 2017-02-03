@@ -8,18 +8,19 @@ name: Use index
 master: {00000000-0000-0000-0000-000000000000}
 template: {F90052A5-B4E6-4E6D-9812-1E1B88A6FCEA}
 templatekey: Action
+created: 20170203T210727Z
 
 ----field----
 field: {FF55D5A7-6D4B-4CD1-83E0-BAC268073F66}
 name: Type
 key: type
-content-length: 59
+content-length: 83
 
-Elision.Rules.GetContextIndex.UseIndexAction, Elision.Rules
+Elision.Feature.Library.Search.Rules.UseIndexAction, Elision.Feature.Library.Search
 ----version----
 language: en
 version: 1
-revision: c8d90514-dbf6-4d19-a14a-a54836985ad7
+revision: b94a13b9-70ec-4d1a-be90-6d250fd8bb54
 
 ----field----
 field: {EEB36A3B-40D9-4AF5-862A-DE257B84DCA3}
@@ -55,18 +56,18 @@ name: __Revision
 key: __revision
 content-length: 36
 
-c8d90514-dbf6-4d19-a14a-a54836985ad7
+b94a13b9-70ec-4d1a-be90-6d250fd8bb54
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 16
 
-20150827T194415Z
+20170203T210920Z
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by
 key: __updated by
 content-length: 14
 
-sitecore\admin
+sitecore\Admin

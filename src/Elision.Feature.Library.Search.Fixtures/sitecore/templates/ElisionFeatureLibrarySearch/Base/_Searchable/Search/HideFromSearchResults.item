@@ -2,12 +2,13 @@
 version: 1
 id: {3C4D4755-8FB1-40F2-B236-BE1E0B552A84}
 database: master
-path: /sitecore/templates/Elision/Search/Searchable/Search/HideFromSearchResults
+path: /sitecore/templates/ElisionFeatureLibrarySearch/Base/_Searchable/Search/HideFromSearchResults
 parent: {CD1DDAD3-D14A-42B7-AAA3-DF3B26EB1938}
 name: HideFromSearchResults
 master: {00000000-0000-0000-0000-000000000000}
 template: {455A3E98-A627-4B40-8035-E683A0331AC7}
 templatekey: Template field
+created: 20170203T204041Z
 
 ----field----
 field: {AB162CC0-DC80-4ABF-8871-998EE5D7BA32}

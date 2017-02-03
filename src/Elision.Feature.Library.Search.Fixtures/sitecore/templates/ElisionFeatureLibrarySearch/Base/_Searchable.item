@@ -1,25 +1,33 @@
 ----item----
 version: 1
-id: {CD1DDAD3-D14A-42B7-AAA3-DF3B26EB1938}
+id: {6DAD8E76-DA0D-4093-9E8C-D4162A23C562}
 database: master
-path: /sitecore/templates/Elision/Search/Searchable/Search
-parent: {6DAD8E76-DA0D-4093-9E8C-D4162A23C562}
-name: Search
+path: /sitecore/templates/ElisionFeatureLibrarySearch/Base/_Searchable
+parent: {787DA34A-A2D8-4B24-BB7D-D70568CF3661}
+name: _Searchable
 master: {00000000-0000-0000-0000-000000000000}
-template: {E269FBB5-3750-427A-9149-7AA950B49301}
-templatekey: Template section
+template: {AB86861A-6030-46C5-B394-E8F99E8B87DB}
+templatekey: Template
+created: 20170203T204039Z
 
+----field----
+field: {12C33F3F-86C5-43A5-AEB4-5598CEC45116}
+name: __Base template
+key: __base template
+content-length: 38
+
+{1930BBEB-7805-471A-A3BE-4858AC7CF696}
 ----field----
 field: {06D5295C-ED2F-4A54-9BF2-26228D113318}
 name: __Icon
 key: __icon
 content-length: 32
 
-Applications/32x32/text_view.png
+applications/32x32/text_view.png
 ----version----
 language: en
 version: 1
-revision: 89aeef47-5c5a-46d2-a8cf-4a948ca8df72
+revision: bea93452-613c-4f3a-9bbb-dc3979c42fb4
 
 ----field----
 field: {25BED78C-4957-4165-998A-CA1B52F67497}
@@ -27,7 +35,7 @@ name: __Created
 key: __created
 content-length: 15
 
-20150712T231536
+20150712T231444
 ----field----
 field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
 name: __Created by
@@ -41,18 +49,18 @@ name: __Revision
 key: __revision
 content-length: 36
 
-89aeef47-5c5a-46d2-a8cf-4a948ca8df72
+bea93452-613c-4f3a-9bbb-dc3979c42fb4
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
-content-length: 34
+content-length: 16
 
-20150722T151502:635731749020512590
+20170203T205856Z
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by
 key: __updated by
 content-length: 14
 
-sitecore\admin
+sitecore\Admin

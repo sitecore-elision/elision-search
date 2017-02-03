@@ -1,9 +1,11 @@
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using Elision.Foundation.Kernel;
 using Sitecore.ContentSearch;
 using Sitecore.ContentSearch.Linq;
 using Sitecore.ContentSearch.Linq.Utilities;
+using Sitecore.ContentSearch.Utilities;
 
 namespace Elision.Search
 {

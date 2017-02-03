@@ -1,4 +1,5 @@
 ﻿using System.Xml;
+using Elision.Foundation.Kernel;
 using Sitecore.ContentSearch;
 using Sitecore.ContentSearch.ComputedFields;
 using Sitecore.Data.Items;

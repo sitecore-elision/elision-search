@@ -1,4 +1,5 @@
 using System.Collections.Generic;
+using Elision.Foundation.Kernel;
 using Sitecore;
 using Sitecore.Data;
 using Sitecore.Data.Items;
@@ -20,7 +21,7 @@ namespace Elision.Search
             Paging = pagingOptions ?? PagingOptions.None;
             Query = query;
             Templates = templates ?? new ID[0];
-            Language = language.Or(Sitecore.Context.Language.Name);
+            Language = language.Or(Context.Language.Name);
         }
     }
 }

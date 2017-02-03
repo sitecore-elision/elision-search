@@ -1,5 +1,6 @@
 using System.Collections.Generic;
 using System.Linq;
+using Elision.Foundation.Kernel;
 using Sitecore;
 using Sitecore.ContentSearch;
 using Sitecore.ContentSearch.ComputedFields;

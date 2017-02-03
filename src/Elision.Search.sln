@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
-VisualStudioVersion = 14.0.25123.0
+VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Elision.Search", "Elision.Search\Elision.Search.csproj", "{0D0D00D0-6F94-4E45-B320-0B7D3B6EBD80}"
 EndProject
@@ -24,7 +24,6 @@ Global
 		{A1F83374-0740-4F40-A629-C228D09B8108}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A1F83374-0740-4F40-A629-C228D09B8108}.Release|Any CPU.Build.0 = Release|Any CPU
 		{7A0326CC-553A-488E-B53A-33BA4D655F05}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{7A0326CC-553A-488E-B53A-33BA4D655F05}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7A0326CC-553A-488E-B53A-33BA4D655F05}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7A0326CC-553A-488E-B53A-33BA4D655F05}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection

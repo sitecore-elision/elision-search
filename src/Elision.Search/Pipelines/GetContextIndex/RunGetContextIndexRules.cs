@@ -1,5 +1,5 @@
-using Elision.Diagnostics;
-using Elision.Rules;
+using Elision.Foundation.Kernel.Diagnostics;
+using Elision.Foundation.Rules;
 using Elision.Search.Rules;
 using Sitecore.ContentSearch;
 using Sitecore.ContentSearch.Pipelines.GetContextIndex;

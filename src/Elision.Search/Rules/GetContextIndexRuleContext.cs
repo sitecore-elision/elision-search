@@ -1,4 +1,4 @@
-using Elision.Rules;
+using Elision.Foundation.Rules;
 using Sitecore.ContentSearch;
 using Sitecore.ContentSearch.Pipelines.GetContextIndex;
 

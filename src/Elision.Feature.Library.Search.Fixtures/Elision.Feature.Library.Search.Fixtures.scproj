@@ -53,7 +53,7 @@
     <DebugSymbols>false</DebugSymbols>
     <OutputPath>.\bin\Release\</OutputPath>
     <RecursiveDeployAction>Ignore</RecursiveDeployAction>
-    <PackageName>Elision.Feature.Search.Fixtures</PackageName>
+    <PackageName>Elision.Feature.Library.Search.Fixtures</PackageName>
     <GeneratePackage>True</GeneratePackage>
     <SeperateFilesAndItems>False</SeperateFilesAndItems>
     <PackageExcludeCode>False</PackageExcludeCode>

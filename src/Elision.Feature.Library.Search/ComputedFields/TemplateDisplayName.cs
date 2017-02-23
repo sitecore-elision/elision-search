@@ -2,7 +2,7 @@
 using Sitecore.ContentSearch.ComputedFields;
 using Sitecore.Data.Items;
 
-namespace Elision.Search.ComputedFields
+namespace Elision.Feature.Library.Search.ComputedFields
 {
     public class TemplateDisplayName: IComputedIndexField
     {

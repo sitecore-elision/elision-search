@@ -8,7 +8,7 @@ using Sitecore.Data.Fields;
 using Sitecore.Data.Items;
 using Sitecore.Layouts;
 
-namespace Elision.Search.ComputedFields
+namespace Elision.Feature.Library.Search.ComputedFields
 {
     public class ComponentsContentField : IComputedIndexField
     {

@@ -7,6 +7,7 @@
     <authors>jrondeau,PatrickDelancy</authors>
     <owners>jrondeau</owners>
     <projectUrl>https://github.com/sitecore-elision/elision-search</projectUrl>
+    <iconUrl>https://image.ibb.co/ihBV7Q/Elision_Logo.png</iconUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>This is the Elision search feature package to reference if you are building a module or other code that just needs to reference Elision search feature. If you need to install Elision's search feature, use the Elision.Feature.Search package instead.</description>
     <releaseNotes></releaseNotes>

@@ -68,7 +68,7 @@
     <NuGetGenerateNuGetPackage>True</NuGetGenerateNuGetPackage>
     <NuGetExePath>..\.nuget</NuGetExePath>
     <NuGetSummary />
-    <NuGetDescription>TDS Feature Layer Item Fixtures for use with Elision Search.  Compatible with Sitecore 8.2 Update 2.</NuGetDescription>
+    <NuGetDescription>TDS Feature Layer Item Fixtures for use with Elision Search.  Compatible with Sitecore 9.</NuGetDescription>
     <NuGetTitle>Elision.Feature.Search TDS Fixtures</NuGetTitle>
     <NuGetVersion>0.0.1</NuGetVersion>
     <NuGetPackageId>Sitecore.Elision.Feature.Search.Fixtures</NuGetPackageId>
@@ -173,23 +173,31 @@
       <ChildItemSynchronization>NoChildSynchronization</ChildItemSynchronization>
       <ItemDeployment>DeployOnce</ItemDeployment>
     </SitecoreItem>
-    <SitecoreItem Include="sitecore\templates\ElisionFeatureLibrarySearch.item">
+    <SitecoreItem Include="sitecore\templates\Elision.item">
+      <ItemDeployment>DeployOnce</ItemDeployment>
+      <ChildItemSynchronization>NoChildSynchronization</ChildItemSynchronization>
+    </SitecoreItem>
+    <SitecoreItem Include="sitecore\templates\Elision\Feature.item">
+      <ItemDeployment>DeployOnce</ItemDeployment>
+      <ChildItemSynchronization>NoChildSynchronization</ChildItemSynchronization>
+    </SitecoreItem>
+    <SitecoreItem Include="sitecore\templates\Elision\Feature\ElisionFeatureLibrarySearch.item">
       <ItemDeployment>DeployOnce</ItemDeployment>
       <ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization>
     </SitecoreItem>
-    <SitecoreItem Include="sitecore\templates\ElisionFeatureLibrarySearch\Base.item">
+    <SitecoreItem Include="sitecore\templates\Elision\Feature\ElisionFeatureLibrarySearch\Base.item">
       <ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization>
       <ItemDeployment>DeployOnce</ItemDeployment>
     </SitecoreItem>
-    <SitecoreItem Include="sitecore\templates\ElisionFeatureLibrarySearch\Base\_Searchable.item">
+    <SitecoreItem Include="sitecore\templates\Elision\Feature\ElisionFeatureLibrarySearch\Base\_Searchable.item">
       <ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization>
       <ItemDeployment>DeployOnce</ItemDeployment>
     </SitecoreItem>
-    <SitecoreItem Include="sitecore\templates\ElisionFeatureLibrarySearch\Base\_Searchable\Search.item">
+    <SitecoreItem Include="sitecore\templates\Elision\Feature\ElisionFeatureLibrarySearch\Base\_Searchable\Search.item">
       <ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization>
       <ItemDeployment>DeployOnce</ItemDeployment>
     </SitecoreItem>
-    <SitecoreItem Include="sitecore\templates\ElisionFeatureLibrarySearch\Base\_Searchable\Search\HideFromSearchResults.item">
+    <SitecoreItem Include="sitecore\templates\Elision\Feature\ElisionFeatureLibrarySearch\Base\_Searchable\Search\HideFromSearchResults.item">
       <ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization>
       <ItemDeployment>DeployOnce</ItemDeployment>
     </SitecoreItem>

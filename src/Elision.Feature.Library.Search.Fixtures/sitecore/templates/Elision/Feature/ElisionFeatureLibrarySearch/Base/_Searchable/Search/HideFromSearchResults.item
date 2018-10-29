@@ -2,7 +2,7 @@
 version: 1
 id: {3C4D4755-8FB1-40F2-B236-BE1E0B552A84}
 database: master
-path: /sitecore/templates/ElisionFeatureLibrarySearch/Base/_Searchable/Search/HideFromSearchResults
+path: /sitecore/templates/Elision/Feature/ElisionFeatureLibrarySearch/Base/_Searchable/Search/HideFromSearchResults
 parent: {CD1DDAD3-D14A-42B7-AAA3-DF3B26EB1938}
 name: HideFromSearchResults
 master: {00000000-0000-0000-0000-000000000000}

@@ -40,8 +40,8 @@ namespace Elision.Feature.Library.Search.Tests
                         continue;
 
                     try
-                    {
-                        var typeInfo = TypeHelper.GetType(typeName);
+                    {var typeInfo = Type.GetType(typeName);
+                        
                         if (typeInfo == null)
                             issues[file].Add(node.OuterXml);
                         else if (System.Diagnostics.Debugger.IsAttached)
@@ -89,7 +89,7 @@ namespace Elision.Feature.Library.Search.Tests
             var match = new Regex(@"\\App_Config\\", RegexOptions.Compiled | RegexOptions.IgnoreCase);
             var exclude = new Regex(@"\\(bin|obj)\\", RegexOptions.Compiled | RegexOptions.IgnoreCase);
             var files = Directory
-                .GetFiles(@"..\..\..\..\src\", @"*.config", SearchOption.AllDirectories)
+                .GetFiles(@"..\src\", @"*.config", SearchOption.AllDirectories)
                 .Where(x => match.IsMatch(x))
                 .Where(x => !exclude.IsMatch(x))
                 .ToArray();

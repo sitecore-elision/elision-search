@@ -89,7 +89,7 @@ namespace Elision.Feature.Library.Search.Tests
             var match = new Regex(@"\\App_Config\\", RegexOptions.Compiled | RegexOptions.IgnoreCase);
             var exclude = new Regex(@"\\(bin|obj)\\", RegexOptions.Compiled | RegexOptions.IgnoreCase);
             var files = Directory
-                .GetFiles(@"..\src\", @"*.config", SearchOption.AllDirectories)
+                .GetFiles(@"..\..\..\..\src\", @"*.config", SearchOption.AllDirectories)
                 .Where(x => match.IsMatch(x))
                 .Where(x => !exclude.IsMatch(x))
                 .ToArray();
